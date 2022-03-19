@@ -6,6 +6,11 @@ function CardsContainer(props){
 
     const [players, setPlayers] = useState(playersObj)
 
+    const playerClicked = (e) => {
+        props.updateClicked(e.target.alt);
+        shufflePlayers();
+    }
+
     const shufflePlayers = () => {
         let playersCopy = players;
         let current = playersCopy.length;
@@ -22,7 +27,7 @@ function CardsContainer(props){
         <div className="card-outer-container">
             <div className="card-container">
                 {players.map((player)=>{
-                    return <Card key={player.name} image={player.image} title={player.name}/>
+                    return <Card key={player.name} playerClicked={playerClicked} image={player.image} title={player.name}/>
                 })}
             </div>
         </div>
