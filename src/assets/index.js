@@ -11,11 +11,11 @@ import { default as timduncan } from "./duncan.jpg";
 import { default as billrussell } from "./bill.jpg";
 import { default as stephencurry } from "./steph.jpg";
 
-export default [
+const playersObj = [
     {name: "LeBron James", image: lebronjames},
     {name: "Michael Jordan", image: michaeljordan},
     {name: "Kobe Bryant", image: kobebryant},
-    {name: "Shaquille O'neal", image: shaquilleoneal},
+    {name: "Shaquille O'Neal", image: shaquilleoneal},
     {name: "Wilt Chamberlain", image: wiltchamberlain},
     {name: "Larry Bird", image: larrybird},
     {name: "Magic Johnson", image: magicjohnson},
@@ -25,3 +25,5 @@ export default [
     {name: "Bill Russell", image: billrussell},
     {name: "Stephen Curry", image: stephencurry}
 ]
+
+export default playersObj;
