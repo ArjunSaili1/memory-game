@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import players from "../assets/players";
+import players from "../assets/index";
 
 function CardsContainer(props){
 
