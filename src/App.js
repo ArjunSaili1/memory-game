@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import CardsContainer from './components/CardsContainer';
+import Scoreboard from './components/Scoreboard';
 
 function App() {
 
@@ -8,17 +9,17 @@ function App() {
 
   const updateClicked = (player) => {
     if(clicked.includes(player)){
-      console.log("lose")
+      setClicked([]);
     }
     else{
       setClicked([...clicked, player])
-      console.log(player)
     }
   }
 
   return (
     <div className="App">
       <CardsContainer updateClicked={updateClicked}/>
+      <Scoreboard score={clicked.length}/>
     </div>
   );
 }
