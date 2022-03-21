@@ -1,5 +1,8 @@
 # NBA Legends Memory Game
 
+## Live Preview
+https://arjunsaili1.github.io/memory-game/
+
 ## About
 
 Only click every NBA Legend once! 
