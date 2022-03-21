@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import CardsContainer from './components/CardsContainer';
-import Scoreboard from './components/Scoreboard';
+import Header from './components/Header';
 
 function App() {
 
@@ -18,8 +18,8 @@ function App() {
 
   return (
     <div className="App">
+      <Header score={clicked.length}/>
       <CardsContainer updateClicked={updateClicked}/>
-      <Scoreboard score={clicked.length}/>
     </div>
   );
 }

@@ -11,9 +11,9 @@ function Scoreboard(props){
     }, [highscore, setHighscore, props.score])
 
     return(
-        <div>
-            <h4>Score: {props.score}</h4>
+        <div className="scoreboard">
             <h4>Highscore: {highscore}</h4>
+            <h4>Score: {props.score}</h4>
         </div>
         
     )
