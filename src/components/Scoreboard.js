@@ -12,8 +12,8 @@ function Scoreboard(props){
 
     return(
         <div className="scoreboard">
-            <h4>Highscore: {highscore}</h4>
-            <h4>Score: {props.score}</h4>
+            <h2>High Score: {highscore}</h2>
+            <h2>Score: {props.score}</h2>
         </div>
         
     )

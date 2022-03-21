@@ -6,6 +6,9 @@
 
 body{
   background-color: #17408B;
+  background-image: url(./assets/background.jpg);
+  background-size: 1500px 1500px;
+  background-position: center;
 }
 
 .card{
@@ -41,9 +44,23 @@ body{
 
 .header{
   display: flex;
-  padding: 3% 0;
+  padding: 3vmax 0;
   align-items: center;
   justify-content: space-evenly;
-  background-color:rgba(255,255,255, 0.5);
+  background-color:rgba(255,255,255, 0.7);
 }
 
+.scoreboard{
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
+
+.scoreboard > h2{
+  font-size: 1.5vmax;
+}
+
+.title{
+  font-size: 2vmax;
+  text-align: center;
+}
