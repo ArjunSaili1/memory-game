@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Card from "./Card";
 import playersObj from "../assets/index";
 
@@ -22,6 +22,10 @@ function CardsContainer(props){
         }
         setPlayers([...playersCopy]);
     }
+
+    useEffect(()=>{
+        shufflePlayers()
+    }, [])
 
     return(
         <div className="card-outer-container">
