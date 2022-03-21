@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.fb1f8ad8.css",
+    "main.js": "/memory-game/static/js/main.97cadb25.js",
+    "static/media/background.jpg": "/memory-game/static/media/background.582a1eea87863cd992d6.jpg",
+    "static/media/bill.jpg": "/memory-game/static/media/bill.7d30e9170310683e8e37.jpg",
+    "static/media/kobebryant.jpg": "/memory-game/static/media/kobebryant.8740e4f7df8f52e662d3.jpg",
+    "static/media/shaq.jpg": "/memory-game/static/media/shaq.37e88fe48f45247a8ef2.jpg",
+    "static/media/hakeem.jpg": "/memory-game/static/media/hakeem.9aeb30f6bd1dfa8e8ee6.jpg",
+    "static/media/magic.jpg": "/memory-game/static/media/magic.6adec5da15d85082b116.jpg",
+    "static/media/lebronjames.jpg": "/memory-game/static/media/lebronjames.0d23877845e7ab4b600e.jpg",
+    "static/media/jordan.jpg": "/memory-game/static/media/jordan.de07b7e45e32d6ac7802.jpg",
+    "static/media/wilt.jpg": "/memory-game/static/media/wilt.b39a172faedbc25ded43.jpg",
+    "static/media/bird.jpg": "/memory-game/static/media/bird.21dd869bcffe28dbf1f6.jpg",
+    "static/media/kareem.jpg": "/memory-game/static/media/kareem.5080415fec664a653b7e.jpg",
+    "static/media/duncan.jpg": "/memory-game/static/media/duncan.db7ddfe25eb485af9d6c.jpg",
+    "static/media/steph.jpg": "/memory-game/static/media/steph.4d1636c7134ddb0e6af5.jpg",
+    "index.html": "/memory-game/index.html",
+    "main.fb1f8ad8.css.map": "/memory-game/static/css/main.fb1f8ad8.css.map",
+    "main.97cadb25.js.map": "/memory-game/static/js/main.97cadb25.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb1f8ad8.css",
+    "static/js/main.97cadb25.js"
+  ]
+}
